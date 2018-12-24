@@ -14,7 +14,7 @@ module.exports = (useJoiError = false) => {
   const _validationOptions = {
     abortEarly: false, // abort after last validation error
     allowUnknown: true, // allow unknowd keys that will be ignored
-    stripUknown: true // strip unknown keys from the validated data
+    stripUnknown: true // strip unknown keys from the validated data
   };
 
   // return the validation middleware
